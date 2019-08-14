@@ -71,8 +71,8 @@ _.MARGINS = {
  * @type {Object}
  */
 _.PAPER = {
-  PAPER_FULL_CUT: '\x1d\x56\x00', // Full cut paper
-  PAPER_PART_CUT: '\x1d\x56\x01', // Partial cut paper
+  PAPER_FULL_CUT: '\x1b\x69\x00', // Full cut paper
+  PAPER_PART_CUT: '\x1b\x6d\x01', // Partial cut paper
   PAPER_CUT_A: '\x1d\x56\x41', // Partial cut paper
   PAPER_CUT_B: '\x1d\x56\x42', // Partial cut paper
 };
